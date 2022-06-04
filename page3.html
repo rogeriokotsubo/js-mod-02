@@ -41,9 +41,9 @@
             <label classe="lbl-form" for="dia">Sua data de nascimento (obrigatório):</label>
             <input type="number" id="dia" name="dia" min="1" max="31" placeholder="dd" required>
             <span>/</span>
-            <input type="number" id="mes" name="mes" min="1" max="12" placeholder="mm">
+            <input type="number" id="mes" name="mes" min="1" max="12" placeholder="mm" required>
             <span>/</span>
-            <input type="number" id="ano" name="ano" min="1920" max="2022"  placeholder="aaaa">
+            <input type="number" id="ano" name="ano" min="1920" max="2022"  placeholder="aaaa" required>
           </div>
           <div class="ctn-input-radio">
             <p>Gênero (obrigatório)</p>
@@ -53,7 +53,7 @@
             <label class="lbl-radio" for="gen-male">Masculino</label>
           </div>            
           <div id="ctn-check">
-            <button id="btn-check" type="button">Comparar</button>
+            <button id="btn-check" type="button">Verificar</button>
             <p id="p-result"></p>
           </div>            
       </form>
