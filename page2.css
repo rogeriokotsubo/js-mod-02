@@ -55,21 +55,21 @@ body:after{
   padding-top: 5vh;
 } 
 .ctn-input{
-  width: 50vw;
+  width: 60vw;
   display: flex;
   padding-top: 1vh;
   gap: 1vw;
 }
 .ctn-input input{
-  width: 30vw;
+  width: 50vw;
   padding: 2px;
 }
 .ctn-input label{
-  width: 8vw;
+  width: 10vw;
   text-align: left;
 }
 #ctn-check{
-  width: 70vw;
+  width: 60vw;
   display: flex;
   padding-top: 2vh;
   gap: 2vw;
