@@ -64,10 +64,10 @@ body:after{
   padding: 2px;
 }
 #dia, #mes{
-  width: 3.5vw;
+  width: 45px;
 }
 #ano{
-  width: 4vw;
+  width: 60px;
 }
 .ctn-input label{
   width: 8vw;
